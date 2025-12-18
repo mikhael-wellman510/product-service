@@ -1,0 +1,18 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: product-service
+
+dubbo:
+  application:
+    qos-enable: false
+    name: product-service
+
+  registry:
+    address: nacos://127.0.0.1:8848
+
+logging:
+  level:
+    org.apache.dubbo.rpc.protocol.dubbo.DubboCodec: WARN
