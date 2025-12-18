@@ -21,4 +21,5 @@ public class BiodataController {
 
         return ResponseEntity.ok(data);
     }
+
 }
